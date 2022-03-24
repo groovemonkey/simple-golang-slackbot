@@ -33,7 +33,7 @@ go run main.go
 1. create an app (from scratch) --> bots --> assign scope to bot token -> settings, install app [use these instructions](https://towardsdatascience.com/develop-a-slack-bot-using-golang-1025b3e606bc)
 1. invite the bot to your channel: "/invite @goslackbot"
 
-1. ```
+```
 go get -u github.com/slack-go/slack
 go get -u github.com/joho/godotenv
 go get -u github.com/slack-go/slack/socketmode
